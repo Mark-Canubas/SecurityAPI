@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36221.1 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityAPI", "SecurityAPI\SecurityAPI.csproj", "{89E87127-8750-4980-9ED3-B2C194F1318C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityAPI", "SecurityAPI\SecurityAPI.csproj", "{964C8404-95FF-45C2-B3F4-F89C7ED97F11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{89E87127-8750-4980-9ED3-B2C194F1318C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{89E87127-8750-4980-9ED3-B2C194F1318C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{89E87127-8750-4980-9ED3-B2C194F1318C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{89E87127-8750-4980-9ED3-B2C194F1318C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{964C8404-95FF-45C2-B3F4-F89C7ED97F11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{964C8404-95FF-45C2-B3F4-F89C7ED97F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{964C8404-95FF-45C2-B3F4-F89C7ED97F11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{964C8404-95FF-45C2-B3F4-F89C7ED97F11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {845EAE9F-63B5-4358-B51D-820A5724C220}
+		SolutionGuid = {E52C3EE0-99F1-4710-97A6-7FCDFCDD3C72}
 	EndGlobalSection
 EndGlobal
