@@ -61,27 +61,19 @@ Public:
 - POST /auth/register
   - Body: RegisterDto
   - Creates a user with Role = User
-  - Returns 201 Created with user info (no token)
+    
 - POST /auth/login
   - Body: LoginDto
-  - Returns 200 OK with user info (no token)
-
+    
 Requires Authorization: Bearer <static-token>):
 - GET /users
   - Returns { data: UserResponse[] }
 - GET /users/{id}
-  - Returns UserResponse or 404
+  - Returns UserResponse
 - GET /users/by-name/{username}
-  - Returns UserResponse or 404
+  - Returns UserResponse
 - PATCH /users/user/{id}
   - Body: UpdateUserDto (rehashes password, updates role)
   - Returns updated UserResponse
 - DELETE /users/user/{id}
-  - Returns 204 No Content
-
-## Error Handling
-- 200 Success
-- 201 No Token
-- 400 validation failures
-- 401 invalid credentials
-- 409 existing user
+  - Return No Content
